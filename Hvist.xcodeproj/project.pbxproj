@@ -7,11 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13BCEAC00C3C62982B87DC97 /* Pods_unit_tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E988D16C80362C9CA1768AD /* Pods_unit_tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1C3048D7078F506D41B43119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3FB585DA4A5F74430E8095 /* AppDelegate.swift */; };
+		3642D626F5A6E7F1214BB57A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5F794FDA79F22D4925A6AE /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		44F5745A82A71940B000A73E /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = EFB6161F13646A16B683CB41 /* Main.storyboard */; };
 		486BD1834D06B85714D3577C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E7D973A187CF9444ABB767 /* Foundation.framework */; };
 		9E85F9B6021446858F52D003 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24AFB9BC93701E0798493AB /* Images.xcassets */; };
-		F959ADD660FE56036B104DF9 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84953AC3D0F4EF4528899916 /* libPods-unit_tests.a */; };
+		B4802F961A8771A800D8EA27 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4802F951A8771A800D8EA27 /* MapViewController.swift */; };
+		B4802F981A8774E000D8EA27 /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4802F971A8774E000D8EA27 /* GoogleDataProvider.swift */; };
+		B4802F9D1A8783CC00D8EA27 /* Dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4802F9C1A8783CC00D8EA27 /* Dummy.m */; };
+		B4802FA61A87898F00D8EA27 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FA01A87898F00D8EA27 /* AVFoundation.framework */; };
+		B4802FA71A87898F00D8EA27 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FA11A87898F00D8EA27 /* CoreData.framework */; };
+		B4802FA81A87898F00D8EA27 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FA21A87898F00D8EA27 /* CoreLocation.framework */; };
+		B4802FA91A87898F00D8EA27 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FA31A87898F00D8EA27 /* CoreText.framework */; };
+		B4802FAA1A87898F00D8EA27 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FA41A87898F00D8EA27 /* GLKit.framework */; };
+		B4802FAB1A87898F00D8EA27 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FA51A87898F00D8EA27 /* ImageIO.framework */; };
+		B4802FAF1A8789C500D8EA27 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FAC1A8789C500D8EA27 /* libc++.dylib */; };
+		B4802FB01A8789C500D8EA27 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FAD1A8789C500D8EA27 /* libicucore.dylib */; };
+		B4802FB11A8789C500D8EA27 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FAE1A8789C500D8EA27 /* libz.dylib */; };
+		B4802FB51A8789E100D8EA27 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FB21A8789E100D8EA27 /* OpenGLES.framework */; };
+		B4802FB61A8789E100D8EA27 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FB31A8789E100D8EA27 /* QuartzCore.framework */; };
+		B4802FB71A8789E100D8EA27 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FB41A8789E100D8EA27 /* SystemConfiguration.framework */; };
+		B4802FBB1A88062F00D8EA27 /* HvistAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4802FBA1A88062F00D8EA27 /* HvistAPI.swift */; };
+		B4802FBD1A88191E00D8EA27 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FBC1A88191E00D8EA27 /* GoogleMaps.framework */; };
+		B4802FBF1A88193200D8EA27 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B4802FBE1A88193200D8EA27 /* GoogleMaps.bundle */; };
+		B4802FC11A881A5600D8EA27 /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4802FC01A881A5600D8EA27 /* PlaceMarker.swift */; };
+		B4802FC31A881AD600D8EA27 /* VetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4802FC21A881AD600D8EA27 /* VetService.swift */; };
 		FED701E54E12916FB0A690D6 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 242E6F59C4D7FD8A89359BF4 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
@@ -27,16 +48,40 @@
 
 /* Begin PBXFileReference section */
 		0F518E320834F8954C89F35A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E988D16C80362C9CA1768AD /* Pods_unit_tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unit_tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		242E6F59C4D7FD8A89359BF4 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		3530A243DE4E5801AEC7D618 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B2A53DB7CF84B67EAB8698 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
 		3C8B994F043E9B9E9102F835 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B3FB585DA4A5F74430E8095 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72656DD2341587F569EFBA30 /* Hvist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hvist.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84953AC3D0F4EF4528899916 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5F794FDA79F22D4925A6AE /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24AFB9BC93701E0798493AB /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A4EAD371AB4498C8B6C8A80A /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		B2E7D973A187CF9444ABB767 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B4802F951A8771A800D8EA27 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Map/MapViewController.swift; sourceTree = "<group>"; };
+		B4802F971A8774E000D8EA27 /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
+		B4802F991A87759E00D8EA27 /* Hvist-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hvist-Bridging-Header.h"; sourceTree = "<group>"; };
+		B4802F9C1A8783CC00D8EA27 /* Dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dummy.m; sourceTree = "<group>"; };
+		B4802FA01A87898F00D8EA27 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B4802FA11A87898F00D8EA27 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B4802FA21A87898F00D8EA27 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B4802FA31A87898F00D8EA27 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B4802FA41A87898F00D8EA27 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B4802FA51A87898F00D8EA27 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B4802FAC1A8789C500D8EA27 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		B4802FAD1A8789C500D8EA27 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		B4802FAE1A8789C500D8EA27 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B4802FB21A8789E100D8EA27 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B4802FB31A8789E100D8EA27 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B4802FB41A8789E100D8EA27 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B4802FBA1A88062F00D8EA27 /* HvistAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HvistAPI.swift; sourceTree = "<group>"; };
+		B4802FBC1A88191E00D8EA27 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Vendors/GoogleMaps/GoogleMaps.framework; sourceTree = "<group>"; };
+		B4802FBE1A88193200D8EA27 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Vendors/GoogleMaps/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		B4802FC01A881A5600D8EA27 /* PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
+		B4802FC21A881AD600D8EA27 /* VetService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VetService.swift; sourceTree = "<group>"; };
+		CA328E62C2DCACE7F11A4504 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E559A8836C99410450E45E14 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EFB6161F13646A16B683CB41 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,7 +90,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4802FB51A8789E100D8EA27 /* OpenGLES.framework in Frameworks */,
+				B4802FB61A8789E100D8EA27 /* QuartzCore.framework in Frameworks */,
+				B4802FB71A8789E100D8EA27 /* SystemConfiguration.framework in Frameworks */,
+				B4802FBD1A88191E00D8EA27 /* GoogleMaps.framework in Frameworks */,
+				B4802FAF1A8789C500D8EA27 /* libc++.dylib in Frameworks */,
+				B4802FB01A8789C500D8EA27 /* libicucore.dylib in Frameworks */,
+				B4802FB11A8789C500D8EA27 /* libz.dylib in Frameworks */,
+				B4802FA61A87898F00D8EA27 /* AVFoundation.framework in Frameworks */,
+				B4802FA71A87898F00D8EA27 /* CoreData.framework in Frameworks */,
+				B4802FA81A87898F00D8EA27 /* CoreLocation.framework in Frameworks */,
+				B4802FA91A87898F00D8EA27 /* CoreText.framework in Frameworks */,
+				B4802FAA1A87898F00D8EA27 /* GLKit.framework in Frameworks */,
+				B4802FAB1A87898F00D8EA27 /* ImageIO.framework in Frameworks */,
 				486BD1834D06B85714D3577C /* Foundation.framework in Frameworks */,
+				3642D626F5A6E7F1214BB57A /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F959ADD660FE56036B104DF9 /* libPods-unit_tests.a in Frameworks */,
+				13BCEAC00C3C62982B87DC97 /* Pods_unit_tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +132,8 @@
 			children = (
 				37B2A53DB7CF84B67EAB8698 /* Pods-unit_tests.release.xcconfig */,
 				3C8B994F043E9B9E9102F835 /* Pods-unit_tests.debug.xcconfig */,
+				CA328E62C2DCACE7F11A4504 /* Pods.release.xcconfig */,
+				E559A8836C99410450E45E14 /* Pods.debug.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -88,8 +149,23 @@
 		37F6DEC1FCB8F6CA471F2C4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B4802FBE1A88193200D8EA27 /* GoogleMaps.bundle */,
+				B4802FBC1A88191E00D8EA27 /* GoogleMaps.framework */,
+				B4802FB21A8789E100D8EA27 /* OpenGLES.framework */,
+				B4802FB31A8789E100D8EA27 /* QuartzCore.framework */,
+				B4802FB41A8789E100D8EA27 /* SystemConfiguration.framework */,
+				B4802FAC1A8789C500D8EA27 /* libc++.dylib */,
+				B4802FAD1A8789C500D8EA27 /* libicucore.dylib */,
+				B4802FAE1A8789C500D8EA27 /* libz.dylib */,
+				B4802FA01A87898F00D8EA27 /* AVFoundation.framework */,
+				B4802FA11A87898F00D8EA27 /* CoreData.framework */,
+				B4802FA21A87898F00D8EA27 /* CoreLocation.framework */,
+				B4802FA31A87898F00D8EA27 /* CoreText.framework */,
+				B4802FA41A87898F00D8EA27 /* GLKit.framework */,
+				B4802FA51A87898F00D8EA27 /* ImageIO.framework */,
 				372E701F67D25278AC42FC4B /* iOS */,
-				84953AC3D0F4EF4528899916 /* libPods-unit_tests.a */,
+				8E5F794FDA79F22D4925A6AE /* Pods.framework */,
+				1E988D16C80362C9CA1768AD /* Pods_unit_tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -97,6 +173,7 @@
 		5CB541C17073A159DAF27104 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B4802F941A87718A00D8EA27 /* Map */,
 				4B3FB585DA4A5F74430E8095 /* AppDelegate.swift */,
 			);
 			path = Controllers;
@@ -133,6 +210,9 @@
 		6B085FBB4EAC6FEC70EDEB8C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B4802F971A8774E000D8EA27 /* GoogleDataProvider.swift */,
+				B4802FBA1A88062F00D8EA27 /* HvistAPI.swift */,
+				B4802FC21A881AD600D8EA27 /* VetService.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -141,6 +221,8 @@
 			isa = PBXGroup;
 			children = (
 				0F518E320834F8954C89F35A /* Info.plist */,
+				B4802F991A87759E00D8EA27 /* Hvist-Bridging-Header.h */,
+				B4802F9C1A8783CC00D8EA27 /* Dummy.m */,
 			);
 			path = "Other-Sources";
 			sourceTree = "<group>";
@@ -165,6 +247,14 @@
 			sourceTree = "<group>";
 			tabWidth = 4;
 			usesTabs = 0;
+		};
+		B4802F941A87718A00D8EA27 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B4802F951A8771A800D8EA27 /* MapViewController.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
 		};
 		B91AF9D88B758D8B4E8FCA09 /* Nibs */ = {
 			isa = PBXGroup;
@@ -212,6 +302,7 @@
 		FECC7B787D46FA4CC2E16D51 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B4802FC01A881A5600D8EA27 /* PlaceMarker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -245,6 +336,7 @@
 				8F443D032CA5D8427019DCAF /* Frameworks */,
 				A7BE81BDFF26A33EBD5C36E3 /* Resources */,
 				8360B9FD643E1FEA0443D94F /* Copy Pods Resources */,
+				5ED0E32BEAF9CFD78B5C8082 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,10 +352,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61F46B31A316709CB60F0D54 /* Build configuration list for PBXNativeTarget "Hvist" */;
 			buildPhases = (
+				BB770BD35372276841549876 /* Check Pods Manifest.lock */,
 				14DBC8A5A2467F4C1A5B59D6 /* Sources */,
 				1FE349785EC2AA2F8F4C23A7 /* Frameworks */,
 				120922E42F0E433EFC8861E6 /* Resources */,
 				9793F6E55C7DFC012BCE6777 /* Warn for TODO and FIXME comments */,
+				EDE635FB8EF735F17039DF8C /* Embed Pods Frameworks */,
+				AFF911A97BAC18611174FF3A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,6 +378,16 @@
 				CLASSPREFIX = "";
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Ivan Kovalisko";
+				TargetAttributes = {
+					AF613588733F9D612728B05B = {
+						DevelopmentTeam = PJ7P99E758;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = 06383E431529EBED0D3802CE /* Build configuration list for PBXProject "Hvist" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -308,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E85F9B6021446858F52D003 /* Images.xcassets in Resources */,
+				B4802FBF1A88193200D8EA27 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +427,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5ED0E32BEAF9CFD78B5C8082 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8360B9FD643E1FEA0443D94F /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,6 +471,51 @@
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
 		};
+		AFF911A97BAC18611174FF3A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB770BD35372276841549876 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE635FB8EF735F17039DF8C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F610D5ACE44D0BEF5BDCCDD7 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -372,9 +538,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4802FBB1A88062F00D8EA27 /* HvistAPI.swift in Sources */,
+				B4802F9D1A8783CC00D8EA27 /* Dummy.m in Sources */,
+				B4802F981A8774E000D8EA27 /* GoogleDataProvider.swift in Sources */,
+				B4802FC11A881A5600D8EA27 /* PlaceMarker.swift in Sources */,
+				B4802FC31A881AD600D8EA27 /* VetService.swift in Sources */,
 				1C3048D7078F506D41B43119 /* AppDelegate.swift in Sources */,
 				44F5745A82A71940B000A73E /* Main.storyboard in Sources */,
 				FED701E54E12916FB0A690D6 /* LaunchScreen.xib in Sources */,
+				B4802F961A8771A800D8EA27 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,10 +624,18 @@
 		};
 		28799679F4E2352365E436D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA328E62C2DCACE7F11A4504 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/xcodeproj.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ikovalisko/Downloads/GoogleMaps-iOS-1.9.1",
+					"$(PROJECT_DIR)/Vendors/GoogleMaps",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "Hvist/Resources/Other-Sources/Info.plist";
@@ -472,16 +652,25 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Hvist/Resources/Other-Sources/Hvist-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		9BF130C1AE528B26E53744D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E559A8836C99410450E45E14 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/xcodeproj.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ikovalisko/Downloads/GoogleMaps-iOS-1.9.1",
+					"$(PROJECT_DIR)/Vendors/GoogleMaps",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -496,6 +685,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Hvist/Resources/Other-Sources/Hvist-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
