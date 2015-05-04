@@ -20,7 +20,7 @@ public class HvistAPI {
                     println(request)
                     println(response)
                     
-                    completionHandler(nil, error?)
+                    completionHandler(nil, error)
                 }
                 else {
                     NSLog("Success: \(request.URL)")

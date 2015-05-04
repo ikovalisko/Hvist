@@ -13,6 +13,8 @@
 		44F5745A82A71940B000A73E /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = EFB6161F13646A16B683CB41 /* Main.storyboard */; };
 		486BD1834D06B85714D3577C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E7D973A187CF9444ABB767 /* Foundation.framework */; };
 		9E85F9B6021446858F52D003 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24AFB9BC93701E0798493AB /* Images.xcassets */; };
+		B402E44F1A8AA584005FD29B /* PlaceContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402E44E1A8AA584005FD29B /* PlaceContentView.swift */; };
+		B402E4511A8AA5A4005FD29B /* PlaceContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B402E4501A8AA5A4005FD29B /* PlaceContentView.xib */; };
 		B4802F961A8771A800D8EA27 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4802F951A8771A800D8EA27 /* MapViewController.swift */; };
 		B4802F981A8774E000D8EA27 /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4802F971A8774E000D8EA27 /* GoogleDataProvider.swift */; };
 		B4802F9D1A8783CC00D8EA27 /* Dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4802F9C1A8783CC00D8EA27 /* Dummy.m */; };
@@ -29,8 +31,6 @@
 		B4802FB61A8789E100D8EA27 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FB31A8789E100D8EA27 /* QuartzCore.framework */; };
 		B4802FB71A8789E100D8EA27 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FB41A8789E100D8EA27 /* SystemConfiguration.framework */; };
 		B4802FBB1A88062F00D8EA27 /* HvistAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4802FBA1A88062F00D8EA27 /* HvistAPI.swift */; };
-		B4802FBD1A88191E00D8EA27 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4802FBC1A88191E00D8EA27 /* GoogleMaps.framework */; };
-		B4802FBF1A88193200D8EA27 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B4802FBE1A88193200D8EA27 /* GoogleMaps.bundle */; };
 		B4802FC11A881A5600D8EA27 /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4802FC01A881A5600D8EA27 /* PlaceMarker.swift */; };
 		B4802FC31A881AD600D8EA27 /* VetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4802FC21A881AD600D8EA27 /* VetService.swift */; };
 		FED701E54E12916FB0A690D6 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 242E6F59C4D7FD8A89359BF4 /* LaunchScreen.xib */; };
@@ -59,6 +59,8 @@
 		A24AFB9BC93701E0798493AB /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A4EAD371AB4498C8B6C8A80A /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		B2E7D973A187CF9444ABB767 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B402E44E1A8AA584005FD29B /* PlaceContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceContentView.swift; sourceTree = "<group>"; };
+		B402E4501A8AA5A4005FD29B /* PlaceContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceContentView.xib; sourceTree = "<group>"; };
 		B4802F951A8771A800D8EA27 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Map/MapViewController.swift; sourceTree = "<group>"; };
 		B4802F971A8774E000D8EA27 /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
 		B4802F991A87759E00D8EA27 /* Hvist-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hvist-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -76,8 +78,6 @@
 		B4802FB31A8789E100D8EA27 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B4802FB41A8789E100D8EA27 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B4802FBA1A88062F00D8EA27 /* HvistAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HvistAPI.swift; sourceTree = "<group>"; };
-		B4802FBC1A88191E00D8EA27 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Vendors/GoogleMaps/GoogleMaps.framework; sourceTree = "<group>"; };
-		B4802FBE1A88193200D8EA27 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Vendors/GoogleMaps/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		B4802FC01A881A5600D8EA27 /* PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
 		B4802FC21A881AD600D8EA27 /* VetService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VetService.swift; sourceTree = "<group>"; };
 		CA328E62C2DCACE7F11A4504 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,7 +93,6 @@
 				B4802FB51A8789E100D8EA27 /* OpenGLES.framework in Frameworks */,
 				B4802FB61A8789E100D8EA27 /* QuartzCore.framework in Frameworks */,
 				B4802FB71A8789E100D8EA27 /* SystemConfiguration.framework in Frameworks */,
-				B4802FBD1A88191E00D8EA27 /* GoogleMaps.framework in Frameworks */,
 				B4802FAF1A8789C500D8EA27 /* libc++.dylib in Frameworks */,
 				B4802FB01A8789C500D8EA27 /* libicucore.dylib in Frameworks */,
 				B4802FB11A8789C500D8EA27 /* libz.dylib in Frameworks */,
@@ -149,8 +148,6 @@
 		37F6DEC1FCB8F6CA471F2C4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B4802FBE1A88193200D8EA27 /* GoogleMaps.bundle */,
-				B4802FBC1A88191E00D8EA27 /* GoogleMaps.framework */,
 				B4802FB21A8789E100D8EA27 /* OpenGLES.framework */,
 				B4802FB31A8789E100D8EA27 /* QuartzCore.framework */,
 				B4802FB41A8789E100D8EA27 /* SystemConfiguration.framework */,
@@ -260,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				242E6F59C4D7FD8A89359BF4 /* LaunchScreen.xib */,
+				B402E4501A8AA5A4005FD29B /* PlaceContentView.xib */,
 			);
 			path = Nibs;
 			sourceTree = "<group>";
@@ -303,6 +301,7 @@
 			isa = PBXGroup;
 			children = (
 				B4802FC01A881A5600D8EA27 /* PlaceMarker.swift */,
+				B402E44E1A8AA584005FD29B /* PlaceContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -412,8 +411,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B402E4511A8AA5A4005FD29B /* PlaceContentView.xib in Resources */,
 				9E85F9B6021446858F52D003 /* Images.xcassets in Resources */,
-				B4802FBF1A88193200D8EA27 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +541,7 @@
 				B4802F9D1A8783CC00D8EA27 /* Dummy.m in Sources */,
 				B4802F981A8774E000D8EA27 /* GoogleDataProvider.swift in Sources */,
 				B4802FC11A881A5600D8EA27 /* PlaceMarker.swift in Sources */,
+				B402E44F1A8AA584005FD29B /* PlaceContentView.swift in Sources */,
 				B4802FC31A881AD600D8EA27 /* VetService.swift in Sources */,
 				1C3048D7078F506D41B43119 /* AppDelegate.swift in Sources */,
 				44F5745A82A71940B000A73E /* Main.storyboard in Sources */,
@@ -628,7 +628,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CIty Media Digital AS";
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/xcodeproj.dst;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -650,6 +650,7 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "24945cf9-c11a-49d0-9426-6cbd2e208f9a";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Hvist/Resources/Other-Sources/Hvist-Bridging-Header.h";
@@ -663,7 +664,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ivan Kovalisko (3FD25NE72E)";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/xcodeproj.dst;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -683,6 +684,7 @@
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0e968084-6fc8-493b-8a42-d761af43065f";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Hvist/Resources/Other-Sources/Hvist-Bridging-Header.h";
